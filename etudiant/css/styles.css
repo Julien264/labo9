@@ -110,10 +110,15 @@ p::selection {
 
 /* Exercice 17 */
 
-.exercice17 label {
+input:checked + label {
+  color: red;
 }
 
 /* Exercice 18 */
+
+h1 .word span:last-child {
+  color: #640101;
+}
 
 /*-------------------------------------------
 -
