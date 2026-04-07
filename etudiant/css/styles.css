@@ -37,13 +37,33 @@ nav :nth-child(2) {
 
 /* Exercice 06 */
 
+.exercice06 ol :nth-child(2n) {
+  background-color: red;
+}
+
 /* Exercice 07 */
+
+.exercice07 ol :nth-child(odd) {
+  background-color: red;
+}
 
 /* Exercice 08 */
 
+.exercice08 ol :nth-child(3n) {
+  background-color: red;
+}
+
 /* Exercice 09 */
 
+.exercice09 ol :nth-child(2n + 99) {
+  background-color: red;
+}
+
 /* Exercice 10 */
+
+.exercice10 ol :nth-child(1n + 14):nth-child(-n + 23) {
+  background-color: red;
+}
 
 /* Exercice 11 */
 
