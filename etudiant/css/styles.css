@@ -1,8 +1,22 @@
 /* Exercice 01 */
 
+li:nth-child(2n) {
+  margin: 0 20px;
+}
+
 /* Exercice 02 */
 
+.exercice02 blockquote::first-letter {
+  font-size: 50px;
+  color: red;
+}
+
 /* Exercice 03 */
+
+.exercice03 blockquote::first-line {
+  color: red;
+  font-weight: 700;
+}
 
 /* Exercice 04 */
 
