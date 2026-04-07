@@ -1,6 +1,6 @@
 /* Exercice 01 */
 
-li:nth-child(2n) {
+nav :nth-child(2) {
   margin: 0 20px;
 }
 
@@ -20,7 +20,20 @@ li:nth-child(2n) {
 
 /* Exercice 04 */
 
+.exercice04 ul + p {
+  color: red;
+}
+
 /* Exercice 05 */
+
+.exercice05 a[href^="https://"]::after {
+  content: "key";
+  display: inline-block;
+  font-family: "Material Symbols Outlined";
+  font-size: 0.875rem;
+  line-height: 1;
+  margin-left: 5px;
+}
 
 /* Exercice 06 */
 
